@@ -1,0 +1,54 @@
+<!doctype html>
+<head>
+    <style>
+        div {
+            width: 30px;
+            height: 30px;
+            border: 1px solid red;
+        }
+        .flex-item1{
+            order: 3;
+            flex-grow: 2;
+        }
+        .flex-item2{
+            order: 2;
+            flex-grow: 1;
+        }
+        .flex-item3{
+            order: 1;
+            flex-grow: 1;
+        }
+        .flex-container_parent {
+            width: 300px;
+            height: 300px;
+            border: 1px solid blue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items: center;
+        }
+        .flex-container_child {
+            width: 150px;
+            height: 150px;
+            border: 1px solid greenyellow;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+<h1>parent and child</h1>
+<div class="flex-container_parent">
+    <div class="flex-container_child">
+        <div class="flex-item1"> c1 </div>
+        <div class="flex-item2"> c2 </div>
+        <div class="flex-item3"> c3 </div>
+    </div>
+    <div class="flex-item4"> c4 </div>
+</div>
+</body>
+</html>
