@@ -61,6 +61,7 @@ https://caniuse.com/#feat=flexbox
 * もっとも利用されているプロパティ。flexbox の核になるプロパティ
 
 ![](12-justify-content-row.png)
+ref:https://github.com/samanthaming/Flexbox30
 
 ## 参考文献
 
