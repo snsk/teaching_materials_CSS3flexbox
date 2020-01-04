@@ -28,11 +28,39 @@ https://caniuse.com/#feat=flexbox
     * 子は、その直接の子のコンテナになることができるが、それは完全に別のフレックスボックス。親のプロパティは引き継がれない（！）
     demo: flex_perent_and_child_.html
 
-## メイン軸とクロス軸
+## フレックスモジュール、メイン軸とクロス軸
 
  * 縦方向の軸と横方向の軸
  * row が指定されると左から右の横軸がメイン軸になる
  * column が指定されると上から下への縦軸がメイン軸になる
+ * それぞれ、開始地点を flex start, 終了地点を flex end という
+
+![](flex-direction-terms.svg)
+
+## ブロック要素とインライン要素
+
+* ブロック要素は要素の幅全体を占有する
+* インライン要素は必要な幅のみ占有する
+
+## flex-direction
+
+* デフォルト値は row
+* メイン軸を定義する
+
+## flex-wrap
+
+* デフォルト値は no-wrap
+> デフォルトのnowrapでは、Flexアイテムは一行に収まるように収縮して配置されます。ただし、Flexアイテムのサイズを維持し、コンテナ内の複数行に配置したい場合は、wrapを使用します。
+
+## flex-flow
+
+* flex-direction と flex-wrap を同時に定義する
+
+##  justify-content
+
+* もっとも利用されているプロパティ。flexbox の核になるプロパティ
+
+![](12-justify-content-row.png)
 
 ## 参考文献
 
