@@ -59,6 +59,14 @@ https://caniuse.com/#feat=flexbox
 ##  justify-content
 
 * もっとも利用されているプロパティ。flexbox の核になるプロパティ
+    * ちょっとわかりにくい space-around と evenly の違い
+
+    |指定|説明|
+    |-|-|
+    |around|各アイテムの周りに同じ大きさの間隔を置く|
+    |evenly|各アイテムの両側に半分の大きさの間隔を置く|
+    
+    ref: https://developer.mozilla.org/ja/docs/Web/CSS/justify-content
 
 ![](12-justify-content-row.png)
 ref:https://github.com/samanthaming/Flexbox30
